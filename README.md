@@ -78,10 +78,6 @@ $$
 | Category | Links |
 |----------|-------|
 | 🎓 CS234 | [CS234 Website](https://web.stanford.edu/class/cs234/) |
-| 🛠️ Toolkits | [CleanRL](https://github.com/vwxyzjn/cleanrl), [Gymnasium](https://gym.openai.com/) |
-| 📘 Concepts | [David Silver's RL Course](https://www.davidsilver.uk/teaching/) |
-| 📙 Spinning Up | [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/) |
-| 🎮 Visualization | [RL Playground](http://rl-playground.com/) |
 
 ---
 
@@ -112,7 +108,8 @@ Thanks to:
 - CS234 staff for high-quality lectures and assignments
 - Stanford Continuing Studies & XCS234
 - Open source contributors (CleanRL, SpinningUp, etc.)
-
+- Thanks to Prof. Emma Brunskill and the CS234 team for their foundational work in RL education
+  
 ---
 
 <p align="center">
