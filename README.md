@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wgu9/cs234-rl-revisited/main/assets/banner_rl.png" width="800" alt="Reinforcement Learning Banner">
+  <img src="https://raw.githubusercontent.com/wgu9/cs234-rl-revisited/main/assets/banner_rl_large.png"
+       width="100%"
+       alt="Reinforcement Learning Banner">
 </p>
 
 <h1 align="center">🧠 CS234: Reinforcement Learning — Revisited</h1>
