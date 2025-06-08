@@ -37,6 +37,26 @@
 | [`references/`](./references) | Curated readings, papers, tools, and extra materials |
 | [`utils/`](./utils)         | Shared plotting or training tools (optional) |
 
+### Comparison with CS224R
+
+CS224R (Deep Reinforcement Learning) and XCS234 (Reinforcement Learning) offer complementary perspectives on RL education. For a detailed analysis, see [cs224r-vs-cs234.md](cs224r-vs-cs234.md).
+
+**Key Differences:**
+
+| Aspect | XCS234 | CS224R |
+|--------|---------|---------|
+| **Approach** | Theory-first with mathematical rigor | Research implementation-focused |
+| **Coverage** | Broad foundations + bandits + human alignment | Cutting-edge robotics + offline RL + meta-learning |
+| **Environments** | Multi-domain (games, healthcare, recommendations) | Primarily advanced robotics (MuJoCo, manipulation) |
+| **Learning Path** | MDPs → Value methods → Policy methods → Modern topics | Imitation → Model-based → Offline → Meta-learning |
+
+**Perfect Complementarity:**
+- **XCS234** builds theoretical foundations and covers classical RL progression
+- **CS224R** applies cutting-edge methods to complex real-world robotics problems
+- Together they provide comprehensive RL education from theory to research frontiers
+
+**Recommendation:** Take XCS234 first for mathematical foundations, then CS224R for advanced implementation skills.
+
 ---
 
 ## 🖥️ Typical Work Environments
@@ -52,6 +72,8 @@
 For a step-by-step guide to setting up a remote development environment (including VM provisioning, SSH, Git, and VS Code Remote-SSH), see:
 
 - [Remote VM Setup, Git, and VS Code](remote_vm_setup_and_git_and_vscode.md)
+
+
 
 This guide covers:
 - Creating and configuring a cloud VM (e.g., AWS EC2)
