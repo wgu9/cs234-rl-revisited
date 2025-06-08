@@ -83,12 +83,14 @@ $$
 
 ## 🖥️ Working Environment
 
-| Purpose | Hardware | OS / Drivers | Python | Deep-Learning Stack |
-|---------|----------|--------------|--------|---------------------|
-| **Dev / CPU experiments** | MacBook Pro (M3 Pro) | macOS 15.5 | 3.12 | PyTorch 2.7 • CPU |
-| **Prod / GPU training** | AMD Ryzen 9 9950X & NVIDIA RTX 5090 | Ubuntu 24.04 & NVIDIA Open Driver 570 & CUDA 12.9 | 3.12 | PyTorch 2.7 • CUDA |
+| Purpose | Hardware | OS / Drivers | Python | DL Stack |
+|---------|----------|--------------|--------|----------|
+| **Dev / CPU** | MacBook Pro (M3 Pro) | macOS 15.5 | 3.12 | PyTorch 2.7 • CPU |
+| **Prod / GPU** | Ryzen 9 9950X + RTX 5090 | Ubuntu 24.04 · Driver 570 · CUDA 12.8+ | 3.12 | PyTorch 2.7 • CUDA |
+| **Cloud / Burst** | AWS EC2 (Tesla V100) | Ubuntu 22.04 · CUDA 12.x | 3.12 | PyTorch 2.7 • CUDA |
+*Prototype locally → train on 5090 workstation → scale up on EC2 as needed.*
 
-> *I prototype on macOS, then run large-scale GPU workloads on the Ubuntu 24.04 workstation.*
+> *I prototype on macOS, run large-scale GPU workloads on the Ubuntu 24.04 workstation (RTX 5090), and use AWS EC2 for additional compute when required.*
 
 ---
 
