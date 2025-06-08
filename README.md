@@ -97,6 +97,15 @@ graph TD
 - 🧮 Agent updates value functions / policy using learning algorithm
 
 ---
+## ⚖️ License & Attributions
+
+For license details and attributions, see [LICENSING.md](./LICENSING.md):
+
+- **Code** (MIT License)
+- **Content** (CC BY-NC 4.0, excluding official Stanford course materials)
+- **Stanford Course Materials** (© Stanford University, under Stanford's license terms)
+
+---
 
 ## 📝 Sample Summary: Q-Learning
 
@@ -139,14 +148,6 @@ $$
 
 ---
 
-## ⚖️ License
-
-- 🧪 Code and implementation: [MIT License](./LICENSE)
-- 📘 Notes, summaries, and markdown content: [CC BY-NC 4.0](./LICENSE_CONTENT.md)
-
-> Feel free to reuse/adapt with attribution — for **non-commercial use only**.
-
----
 
 
 ## 🤝 Acknowledgements
