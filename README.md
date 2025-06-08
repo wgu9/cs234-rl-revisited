@@ -39,6 +39,29 @@
 
 ---
 
+## 🖥️ Typical Work Environments
+
+| Environment         | Where you type `tmux`                | Typical Usage & Actions                                      |
+|---------------------|--------------------------------------|--------------------------------------------------------------|
+| **MacBook Pro (local)** | *Not needed*                         | Use VS Code's integrated terminal for quick prototyping.     |
+| **Workstation (Ubuntu 24.04, RTX 5090)** | **Yes** — open terminal in VS Code Remote-SSH, run `tmux new -s dev` | Keeps long-running jobs alive if VS Code disconnects.        |
+| **AWS EC2 GPU VM (Ubuntu 22.04 or 24.04)** | **Yes** — SSH in, then `tmux new -s train`                   | Essential for spot instances; training survives network drops.|
+
+### 🗝️ Key Guide: Remote VM Setup, Git, and VS Code
+
+For a step-by-step guide to setting up a remote development environment (including VM provisioning, SSH, Git, and VS Code Remote-SSH), see:
+
+- [Remote VM Setup, Git, and VS Code](remote_vm_setup_and_git_and_vscode.md)
+
+This guide covers:
+- Creating and configuring a cloud VM (e.g., AWS EC2)
+- Setting up SSH keys and secure access
+- Installing essential packages (Python, CUDA, etc.)
+- Cloning this repository via Git
+- Using VS Code Remote-SSH for seamless development
+
+*Recommended for anyone running code or training on remote servers!*
+
 ## 🧠 RL Architecture (Simplified View)
 
 ```mermaid

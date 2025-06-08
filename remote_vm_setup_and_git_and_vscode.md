@@ -29,7 +29,7 @@
 
 | Step | Command / UI | Notes |
 |------|--------------|-------|
-| **Create EC2** | Use the Ubuntu 24.04 5090 GPU or AWS | Cheaper spot pricing if available |
+| **Ubuntu Instance** | Use the Ubuntu 24.04 5090 GPU Workstation or AWS EC2 Instance| Cheaper spot pricing if available |
 | **Security group** | Allow **SSH (port 22)** from **your IP only** | Reduce attack surface |
 | **Login (SSH key)** | `ssh -i ~/.ssh/cs234.pem ubuntu@<IP>` | No password prompts|
 | **Login (password)** | `ssh user@<IP>` → enter password | Not recommended  |
@@ -152,5 +152,3 @@ Ctrl‑b d  # detach
 | VS Code cannot connect | Check `~/.ssh/config`; add `ServerAliveInterval 60` |
 | GPU not visible | Install correct NVIDIA driver & `nvidia-smi`; reboot |
 | Conda env missing | `conda create -n cs234 python=3.12 pytorch==2.7 cudatoolkit=12.1 -c pytorch -c conda-forge` |
-
----
