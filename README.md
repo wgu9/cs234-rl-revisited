@@ -57,6 +57,12 @@ CS224R (Deep Reinforcement Learning) and XCS234 (Reinforcement Learning) offer c
 
 **Recommendation:** Take XCS234 first for mathematical foundations, then CS224R for advanced implementation skills.
 
+### 📑 Homework Summaries
+
+- [CS234 Homework Summaries](summaries/cs234hws.md): Clear, concise explanations and solutions for key CS234 assignments, rewritten for better understanding and modularity.
+- [CS224R Homework Summaries](summaries/cs224r_hws.md): Summaries and annotated solutions for CS224R assignments, focusing on deep RL and advanced topics.
+
+
 ---
 
 ## 🖥️ Typical Work Environments
